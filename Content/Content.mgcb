@@ -1,4 +1,4 @@
-#----------------------------- Global Properties ----------------------------#
+﻿#----------------------------- Global Properties ----------------------------#
 
 /outputDir:bin/$(Platform)
 /intermediateDir:obj/$(Platform)
@@ -29,4 +29,10 @@
 /processor:TextureProcessor
 /processorParam:ColorKeyEnabled=False
 /build:Fonts/TitleBitmapFont.png
+
+#begin Audio/bgm_chill_warm.ogg
+/importer:OggImporter
+/processor:SongProcessor
+/processorParam:Quality=Best
+/build:Audio/bgm_chill_warm.ogg
 

@@ -1,4 +1,0 @@
-Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
-"D:/A_my_game/Genesis/Content/cover.png","D:/A_my_game/Genesis/Content/bin/DesktopGL/Content/cover.xnb","TextureProcessor","Texture2DContent",441624,3686485,0.1789562
-"D:/A_my_game/Genesis/Content/Fonts/TitleBitmapFont.png","D:/A_my_game/Genesis/Content/bin/DesktopGL/Content/Fonts/TitleBitmapFont.xnb","TextureProcessor","Texture2DContent",43797,825429,0.0181961
-"D:/A_my_game/Genesis/Content/Fonts/UiBitmapFont.png","D:/A_my_game/Genesis/Content/bin/DesktopGL/Content/Fonts/UiBitmapFont.xnb","TextureProcessor","Texture2DContent",19140,254037,0.0237995

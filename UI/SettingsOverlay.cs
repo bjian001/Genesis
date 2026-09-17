@@ -1,4 +1,4 @@
-using Microsoft.Xna.Framework;
+﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 
@@ -40,11 +40,11 @@ public sealed class SettingsOverlay
         _closeBtn = new Rectangle(_panel.Right - 140, _panel.Bottom - 56, 100, 40);
     }
 
-    public void Update()
+    public void Update(ScreenScaler scaler)
     {
         RequestClose = false;
         var mouse = Mouse.GetState();
-        var pos = mouse.Position;
+        var pos = scaler.ToVirtual(mouse.Position);
         _hovered = -1;
 
         if (_volumeDown.Contains(pos)) _hovered = 0;
@@ -124,3 +124,4 @@ public sealed class SettingsOverlay
         spriteBatch.Draw(_pixel, rect, color);
     }
 }
+

@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
@@ -57,10 +57,10 @@ public sealed class StartScreen
         _quitBtn = new Rectangle(x, startY + 3 * (btnH + gap), btnW, btnH);
     }
 
-    public MenuAction Update(GameTime gameTime)
+    public MenuAction Update(GameTime gameTime, ScreenScaler scaler)
     {
         var mouse = Mouse.GetState();
-        var pos = mouse.Position;
+        var pos = scaler.ToVirtual(mouse.Position);
         _hovered = -1;
 
         if (_newGameBtn.Contains(pos)) _hovered = 0;
@@ -184,3 +184,4 @@ public sealed class StartScreen
         spriteBatch.Draw(_pixel, rect, color);
     }
 }
+
