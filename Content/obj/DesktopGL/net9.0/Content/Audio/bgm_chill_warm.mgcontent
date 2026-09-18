@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SourceFile>d:/A_my_game/Genesis/Content/Audio/bgm_chill_warm.ogg</SourceFile>
+  <SourceTime>2026-09-17T16:52:21.337954+08:00</SourceTime>
+  <DestFile>d:/A_my_game/Genesis/Content/bin/DesktopGL/Content/Audio/bgm_chill_warm.xnb</DestFile>
+  <DestTime>2026-09-17T17:10:52.1020201+08:00</DestTime>
+  <Importer>OggImporter</Importer>
+  <ImporterTime>2026-08-15T05:50:10+08:00</ImporterTime>
+  <Processor>SongProcessor</Processor>
+  <ProcessorTime>2026-08-15T05:50:10+08:00</ProcessorTime>
+  <Parameters>
+    <Key>Quality</Key>
+    <Value>Best</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput>
+    <string>d:/A_my_game/Genesis/Content/bin/DesktopGL/Content/Audio/bgm_chill_warm.ogg</string>
+  </BuildOutput>
+</PipelineBuildEvent>
